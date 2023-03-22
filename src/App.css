@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+.appContainer {
+  display: flex;
+  margin: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.formContainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bookListContainer {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bookContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: solid;
+  border-width: 1px;
+}
+
+.bookInfoContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.descriptionInputField {
+  width: 400px;
+  height: 100px;
+  font-family: 'Segoe UI';
+}
+
+button {
+  margin-top: 48px;
+  margin-right: 10px;
+  width: 90px;
+  max-height: 30px;
+}
+
+input {
+  width: 400px;
+  font-family: 'Segoe UI';
 }
